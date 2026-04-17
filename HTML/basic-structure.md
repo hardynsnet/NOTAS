@@ -21,5 +21,29 @@
 > Pequeño ejemplo:
 [Ver ejemplo](/HTML/example-code.html)
 
+# Envolturas no semánticas
+<p>Una envoltura no semántica es un mecanismo que ayuda a englobar o agrupar cierto contenido para posteriormente referirse a ellos como una entidad que comparta cierto CSS o JavaScript.</p>
+<p>En casos como esos HTML dispone de los siguientes elementos</p>
 
+- div
+- span
+
+<p>Estos elementos deben usarse con otro atributo llamado 'class', para darles un tipo de etiquetado que permita identificar a que hace referencia de una manera mucho más rápida.</p>
+
+<h2>Etiqueta SPAN</h2>
+<p>Es un elemento no semántico que se utiliza dentro de una etiqueta cuando no sabemos que otra etiqueta incluir dentro del contenido, o dicho de otra manera, para poner algo dentro de la etiqueta sin especificidad.</p>
+
+[Ver ejemplo](/HTML/span-tag.html)
+
+<h3>Etiqueta div</h3>
+<p>Es un elemento de bloque que se usa cuando no hay otro elemento mejor, basicamente es como seccionar. Ejemplo: Un carro de compras que puedes pulsar en cualquier momento durante el recorrido en una tienda virtual
+
+[Ver ejemplo](/HTML/div-tag.html)
+
+<h3>Saltos de línea</h3>
+<p>En estos no se profundiza tanto, el elemento'br' genera un salto de línea en un párrafo y el elemento hr es básicamente un separador horizontal</p>
+
+[Ver ejemplo](/HTML/br-hr-tag.html)
+
+- Web de referencia: mdn-docs
 
