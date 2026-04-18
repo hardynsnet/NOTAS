@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Inventario de Hardware</title>
+    <style>
+        body { font-family: sans-serif; margin: 40px; background-color: #f4f4f9; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; background: white; }
+        th, td { border: 1px solid #ccc; padding: 10px; text-align: left; }
+        th { background-color: #2c3e50; color: white; }
+        form { background: white; padding: 20px; border-radius: 8px; border: 1px solid #ddd; }
+        .field { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <h1>Registro de Equipos</h1>
+    
+    <!-- Ejemplo Práctico de Formulario -->
+    <form>
+        <div class="field">
+            <label for="equipo">Nombre del Dispositivo:</label>
+            <input type="text" id="equipo" name="equipo" placeholder="Ej: Servidor ProLiant" required>
+        </div>
+
+        <div class="field">
+            <label for="tipo">Tipo de Hardware:</label>
+            <select id="tipo" name="tipo">
+                <option value="red">Redes</option>
+                <option value="almacenamiento">Almacenamiento</option>
+                <option value="computo">Cómputo</option>
+            </select>
+        </div>
+
+        <div class="field">
+            <label>Estado del Mantenimiento:</label>
+            <input type="radio" id="al-dia" name="estado" value="al-dia">
+            <label style="display:inline;" for="al-dia">Al día</label>
+            <input type="radio" id="pendiente" name="estado" value="pendiente">
+            <label style="display:inline;" for="pendiente">Pendiente</label>
+        </div>
+
+        <button type="submit">Registrar Dispositivo</button>
+    </form>
+
+    <hr>
+
+    <h1>Inventario Actual</h1>
+
+    <!-- Ejemplo Práctico de Tabla -->
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Dispositivo</th>
+                <th>Categoría</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Switch Cisco 24p</td>
+                <td>Redes</td>
+                <td>Operativo</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Workstation Dell</td>
+                <td>Cómputo</td>
+                <td>En mantenimiento</td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>

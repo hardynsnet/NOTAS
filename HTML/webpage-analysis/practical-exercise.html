@@ -6,17 +6,123 @@
     <title>Ejercicio Práctico | Estructurando una Página Web</title>
 </head>
 <body>
-
-    <header>
-
+    <!--Acá va la barra de navegación, banner y logo-->
+    <header id="cabezotePrincipal">
+        <section id="barraSuperior">
+            <nav id="barraPrincipalNavegacion">
+                <ul>
+                    <li><a href="practical-exercise.html">Inicio</a></li>
+                    <li><a href="who-am-i.html">¿QUIÉN SOY?</a></li>
+                    <li><a href="works.html">MI TRABAJO</a></li>
+                    <li><a href="assesories.html">MIS CLASES</a></li>
+                    <li><a href="contact.html">CONTÁCTAME</a></li>
+                </ul>
+            </nav>
+            <h1>
+                <img src="#" alt="miFoto">
+            </h1>
+        </section>
+        <section id="bannerPrincipal">
+            <h2>Mejorando la vida a través de la tecnología</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus beatae reiciendis consequatur eligendi delectus. Necessitatibus, laborum, non omnis ad repellendus corporis eaque reiciendis, blanditiis vero enim similique. Ipsam, excepturi quibusdam.</p>
+        </section>
     </header>
-    
-    <main>
 
+    <!--Mi contenido principal-->
+    <main>
+        <article id="miPerfil">
+            <section id="miDescripcion">
+                <h2>¿QUIÉN SOY?</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus beatae reiciendis consequatur eligendi delectus. Necessitatibus, laborum, non omnis ad repellendus corporis eaque reiciendis, blanditiis vero enim similique. Ipsam, excepturi quibusdam.</p>
+            </section>
+            <aside id="habilidades">
+                <h2>HABILIDADES PROFESIONALES</h2>
+                <table>
+                    <tr>
+                        <td>1</td>
+                        <td>2</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>5</td>
+                        <td>6</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>8</td>
+                        <td>9</td>
+                    </tr>
+                    <tr>
+                        <td>10</td>
+                        <td>11</td>
+                        <td>12</td>
+                    </tr>
+                    <tr>
+                        <td>13</td>
+                        <td>14</td>
+                        <td>15</td>
+                    </tr>
+                </table>
+            </aside>
+        </article>
+        <article id="miPortafolio">
+            <h2>MI PORTAFOLIO</h2>
+            <section id="cadaProyecto">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+                <img src="" alt="img">
+            </section>
+        </article>
+        <article id="proyectoDestacado">
+            <h2>MI TRABAJO</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odio a ab esse libero quam amet placeat eum officia temporibus, quis minima incidunt alias quod totam nobis fuga possimus saepe omnis?</p>
+            <video src="https://www.youtube.com/watch?v=jPstRN7bk80" controls></video>
+        </article>
     </main>
 
-    <footer>
+    <!--Información de cierre-->
+    <footer id="piePaginaPrincipal">
+        <section id="formularioContacto">
+            <header>
+                <h2>MIS CLASES</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione fugiat accusantium impedit minus praesentium earum adipisci asperiores, quibusdam natus nam aperiam pariatur quo esse, illo nulla neque ullam doloribus incidunt!</p>
+            </header>
+        </section>
+        <section id="formulario">
+            <form action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Su nombre y apellido">
+                <label for="correo">Correo</label>
+                <input type="text" id="correo" placeholder="Su correo electrónico">
+                <label for="ciudad">Ciudad</label>
+                <input type="text" id="ciudad" placeholder="Su ciudad de residencia">
 
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <button type="submit"></button>
+            </form>
+        </section>
+        <section id="cierre">
+            <section id="copyright">
+                H4RL3Y [0]
+                contacto@harleyzero.com
+                Medellín, Colombia. Copyright 
+            </section>
+            <section id="redesSociales">
+                <nav id="enlacesRedes">
+                    <ul>
+                        <li><a href="">Facebook</a></li>
+                        <li><a href="">X</a></li>
+                        <li><a href="">Instagram</a></li>
+                    </ul>
+                </nav>
+            </section>
+        </section>
     </footer>
 
 </body>
